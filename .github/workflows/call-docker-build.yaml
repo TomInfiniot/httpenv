@@ -24,6 +24,7 @@ on:
 
 jobs:
   call-docker-build:
+    runs-on: self-hosted
 
     name: Call Docker Build
 
